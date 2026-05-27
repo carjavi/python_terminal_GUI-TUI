@@ -1,35 +1,3 @@
-
-<p align="center"><img src="./img/app_termGUI.png" width="500"   alt=" " /></p>
-<h1 align="center"> Python Terminal GUI-TUI </h1> 
-<h4 align="right">May 26</h4>
-
-<p>
-  <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
-  <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
-</p>
-
-<br>
-
-# Table of contents
-- [Table of contents](#table-of-contents)
-- [Install](#install)
-- [Code](#code)
-- [Troubleshooting](#troubleshooting)
-
-<br>
-
-Python terminal Interfaz Gráfica de Usuario &amp; Interfaz de Usuario Basada en Texto
-
-# Install
-la App instala las librerias automaticamente la primera vez que inicia
-
-> :memo: **Note:** 
-> * Es una version generica
-> * Compatible con: CMD, PowerShell, Terminal-VScode
-
-# Code
-
-```bash
 # CarJavi TermGUI — Interfaz TUI modular (compatible con: CMD, PowerShell, Terminal-VScode)
 # @author: Carlos Briceño <carjavi@hotmail.com>
 # @date: 26-05-2026
@@ -809,26 +777,3 @@ def main(argv: list[str] | None = None) -> None:
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-
-```
-
-
-
-<br>
-
-# Troubleshooting
-> :warning: **Warning:** aun no detectado
-
-<br>
-
----
-
-<div>
-  <p>
-    <img  align="top" width="42" style="padding:0px 0px 0px 0px;" src="./img/carjavi.png"/> Copyright &nbsp;&copy; 2023 Instinto Digital <a href="https://carjavi.github.io/" title="carjavi.github">carjavi</a>
-  </p>
-</div>
-
-<p align="center">
-    <a href="https://instintodigital.net/" target="_blank"><img src="./img/developer.png" height="100" alt="www.instintodigital.net"></a>
-</p>
