@@ -13,6 +13,8 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Install](#install)
+  - [usando el install.bat](#usando-el-installbat)
+- [Usage](#usage)
 - [Setting (Into code)](#setting-into-code)
 - [Code](#code)
 - [Troubleshooting](#troubleshooting)
@@ -27,6 +29,53 @@ la App instala las librerias automaticamente la primera vez que inicia
 > :memo: **Note:** 
 > * Es una version generica
 > * Compatible con: CMD, PowerShell, Terminal-VScode
+> * Si inicia e instala todos las libreria posiblemente no inicie la primera vez. 
+
+## usando el install.bat
+1. Descarga el archivo install en la carpeta de las fotos:<br>
+
+Desde Gitbash o CMD en Windows 10/11 modernos
+```bash
+curl -L https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master/install.bat -o install.bat
+```
+Desde Powershell
+```bash
+Invoke-WebRequest https://raw.githubusercontent.com/carjavi/iPhone-to-social-networking/master/install.bat -OutFile install.bat
+
+```
+2. Correr instalador desde la consola: 
+```bash
+# Desde Gitbash
+./install.bat
+
+# Desde CMD
+cmd.exe /c install.bat
+
+# Desde Powershell
+./install.bat
+```
+<br>
+
+# Usage
+
+3. Activa el entorno virtual:
+```bash
+# Desde Gitbash
+source venv/Scripts/activate
+
+# Desde el CMD
+venv\Scripts\activate
+
+# Desde PowerShell
+# Cambia la política de seguridad de PowerShell. Permite ejecutar scripts locales sin firma y descargados de internet
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process; .\venv\Scripts\Activate.ps1
+
+# RUN
+python carjavi_TermGUI.py
+
+```
+
+
 
 <br>
 
